@@ -22,8 +22,4 @@ docs: Contains any documentation created during the project, including tutorials
 Usage
 To use this repository, you will need to have a working knowledge of Solidity and Ethereum development. You can clone the repository to your local machine and use tools like Remix IDE and Ganache to deploy and test the code.
 
-Contributions
-Contributions to this repository are welcome. If you find a bug or want to suggest an improvement, please create an issue or submit a pull request. Please ensure that your contributions follow the guidelines outlined in the CONTRIBUTING.md file.
 
-License
-This repository is licensed under the MIT License. See the LICENSE file for details.
