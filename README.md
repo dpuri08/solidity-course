@@ -1,25 +1,38 @@
-This repository is created for my Solidity project from Metacrafters. The project involves learning about various aspects of blockchain development, including cryptography, Ethereum, EVM, and deploying/testing code.
+# Code Basics
 
-Learning Objectives
-During the creation of this repository, I have learned about the following:
-
-Cryptography for the blockchain: The project involved understanding how cryptography is used to secure transactions on the blockchain. I learned about various cryptographic algorithms, such as SHA-256 and RSA, and how they are used to protect the integrity of transactions on the blockchain.
-
-Key features of Ethereum: I gained a deeper understanding of the Ethereum blockchain and its features, including smart contracts, decentralized applications, and the Ethereum Virtual Machine (EVM).
-
-EVM and its usage: I learned about the Ethereum Virtual Machine (EVM) and how to use it to execute smart contracts. This involved understanding the EVM's opcode instructions and the role they play in executing code on the blockchain.
-
-Deploying and testing code: I learned how to deploy and test Solidity code on the Ethereum blockchain using tools like Remix IDE and Ganache.
-
-Creating an ERC20 token: Finally, I learned how to create an ERC20 token, which is a standard for creating fungible tokens on the Ethereum blockchain. This involved understanding the ERC20 token standard and writing Solidity code to implement the token.
-
-Project Structure
-This repository contains the Solidity code for the project, as well as any additional files and documentation that were created during its development. The code is organized into the following directories:
-
-contracts: Contains the Solidity code for the smart contracts used in the project, including the ERC20 token contract.
-tests: Contains the test scripts used to test the Solidity code.
-docs: Contains any documentation created during the project, including tutorials, guides, and reference material.
-Usage
-To use this repository, you will need to have a working knowledge of Solidity and Ethereum development. You can clone the repository to your local machine and use tools like Remix IDE and Ganache to deploy and test the code.
+This Solidity programs are some simple "Hello World" to "CREATING A ERC20 TOKEN" program that demonstrates the basic syntax and functionality of the Solidity programming language.
 
 
+## Getting Started
+
+### Executing program (SAME FOR ALL)
+
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., HelloWorld.sol). Copy and paste the following code into the file:
+
+```javascript
+pragma solidity ^0.8.4;
+contract HelloWorld {
+    function sayHello() public pure returns (string memory) {
+        return "Hello World!";
+    }
+}
+```
+
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile HelloWorld.sol" button.
+
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "HelloWorld" contract from the dropdown menu, and then click on the "Deploy" button.
+
+Once the contract is deployed, you can interact with it by calling the sayHello function. Click on the "HelloWorld" contract in the left-hand sidebar, and then click on the "sayHello" function. Finally, click on the "transact" button to execute the function and retrieve the "Hello World!" message.
+
+## Authors
+
+DEEPANASHU PURI 
+Support (METACRAFTERS)
+
+
+
+## License
+
+This project is licensed under the MIT License OR may be UNLICENCED 
