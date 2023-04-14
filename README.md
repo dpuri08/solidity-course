@@ -1,4 +1,4 @@
-# Code Basics
+# About Code
 
 This Solidity programs are some simple "Hello World" to "CREATING A ERC20 TOKEN" program that demonstrates the basic syntax and functionality of the Solidity programming language.
 
